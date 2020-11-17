@@ -1,0 +1,54 @@
+{
+  "name": "@darkwolf/pagination.mjs",
+  "version": "1.0.1",
+  "description": "Pagination",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./": "./lib/",
+    "./types": "./lib/types/index.mjs",
+    "./types/": "./lib/types/",
+    "./types/Button": "./lib/types/Button.mjs",
+    "./Button": "./lib/types/Button.mjs",
+    "./constants": "./lib/constants/index.mjs",
+    "./constants/": "./lib/constants/",
+    "./constants/Mode": "./lib/constants/Mode.mjs",
+    "./constants/Display": "./lib/constants/Display.mjs",
+    "./constants/ButtonType": "./lib/constants/ButtonType.mjs",
+    "./Mode": "./lib/constants/Mode.mjs",
+    "./Display": "./lib/constants/Display.mjs",
+    "./ButtonType": "./lib/constants/ButtonType.mjs",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-pagination.git"
+  },
+  "keywords": [
+    "darkwolf",
+    "dw",
+    "pagination",
+    "mjs",
+    "navigation",
+    "paginator",
+    "navigator",
+    "stepper",
+    "builder",
+    "formatter"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-pagination/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-pagination#readme",
+  "dependencies": {
+    "@darkwolf/helper.mjs": "^1.0.6"
+  }
+}

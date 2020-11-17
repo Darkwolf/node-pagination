@@ -1,0 +1,37 @@
+{
+  "name": "@darkwolf/pagination.cjs",
+  "version": "1.0.1",
+  "description": "Pagination",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-pagination.git"
+  },
+  "keywords": [
+    "darkwolf",
+    "dw",
+    "pagination",
+    "cjs",
+    "navigation",
+    "paginator",
+    "navigator",
+    "stepper",
+    "builder",
+    "formatter"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-pagination/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-pagination#readme",
+  "dependencies": {
+    "@darkwolf/helper.cjs": "^1.0.6"
+  }
+}
